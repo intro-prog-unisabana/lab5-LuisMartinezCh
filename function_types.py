@@ -1,4 +1,4 @@
-flotantes = [100.0, 200.0, 300.0]
+datos = [2.0, 4.0, 6.0, 8.0]
 def list_shift(a, b):
     for i in range(len(a)):
         a[i] += b
@@ -12,6 +12,6 @@ def print_normalized (a):
     return a
 
 
-print(list_shift(flotantes, 25))
-print(calc_avg(flotantes))
-print(print_normalized(flotantes))
+prom = calc_avg(datos)         
+list_shift(datos, -prom)       
+print_normalized(datos) 
