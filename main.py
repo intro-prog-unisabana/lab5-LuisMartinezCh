@@ -1,8 +1,7 @@
 from utils_calc import *
 resultdo = None
 while True:
-    operation = input("Which calculation would you like to perform? (add, subtract, multiply, divide, exponent, modulo, floor_divide, absolute, exit):")
-    print(operation)
+    operation = input("Which calculation would you like to perform? (add, subtract, multiply, divide, exponent, modulo, floor_divide, absolute, exit):").lower
     if operation == "add":
         num1 = int(input("Enter the first number:"))
         num2 = int(input("Enter the second number:"))
