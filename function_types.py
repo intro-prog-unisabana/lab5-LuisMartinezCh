@@ -13,5 +13,6 @@ def print_normalized (a):
 
 
 prom = calc_avg(datos)         
-list_shift(datos, -prom)       
+list_shift(datos, -prom)    
 print_normalized(datos) 
+

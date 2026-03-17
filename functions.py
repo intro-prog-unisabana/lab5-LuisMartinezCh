@@ -1,4 +1,7 @@
 def promedio_estudiante(*num):
-    return sum(num)/(len(num))
+    total = 0
+    for digit in num:
+        total += digit
+        return total/(len(num))
 
-print(promedio_estudiante(2,3,2,3,6,4,5))
+print(promedio_estudiante())
