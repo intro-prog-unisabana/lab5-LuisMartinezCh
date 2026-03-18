@@ -4,5 +4,5 @@ a = int(input("Enter the start value:\n"))
 b = int(input("Enter the end value:\n"))
 
 entero_aleatorio = random.randint(a , b)
-print(entero_aleatorio)
+print(f"Generated random number: {entero_aleatorio}")
 
