@@ -5,5 +5,6 @@ x = int(input())
 y = float(input())
 # FREEZE CODE END
 quiz_test = str(input())
-print(transform_data(x,y,quiz_test))
+resultado = transform_data(x,y,quiz_test)
+print(resultado)
 
